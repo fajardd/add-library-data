@@ -10,7 +10,6 @@ function App() {
     penerbit: "",
     tanggal: "",
   });
-
   const [bukuList, setBukuList] = useState([]);
 
   const handleChange = (e) => {
@@ -43,7 +42,7 @@ function App() {
               name="judul"
               value={perpus.judul}
               onChange={handleChange}
-              className="border border-slate-400 focus:border-blue-400 outline-none px-2"
+              className="border border-slate-400 focus:border-blue-400 outline-none px-2 w-full"
               required
             />
           </div>
@@ -55,7 +54,7 @@ function App() {
               name="penulis"
               value={perpus.penulis}
               onChange={handleChange}
-              className="border border-slate-400 focus:border-blue-400 outline-none px-2"
+              className="border border-slate-400 focus:border-blue-400 outline-none px-2 w-full"
               required
             />
           </div>
@@ -66,7 +65,7 @@ function App() {
               name="penerbit"
               value={perpus.penerbit}
               onChange={handleChange}
-              className="border border-slate-400 focus:border-blue-400 outline-none px-2"
+              className="border border-slate-400 focus:border-blue-400 outline-none px-2 w-full"
               required
             />
           </div>
@@ -77,7 +76,7 @@ function App() {
               name="jumlah"
               value={perpus.jumlah}
               onChange={handleChange}
-              className="border border-slate-400 focus:border-blue-400 outline-none px-2"
+              className="border border-slate-400 focus:border-blue-400 outline-none px-2 w-full"
               required
             />
           </div>
@@ -88,7 +87,7 @@ function App() {
               name="tanggal"
               value={perpus.tanggal}
               onChange={handleChange}
-              className="border border-slate-400 focus:border-blue-400 outline-none px-2"
+              className="border border-slate-400 focus:border-blue-400 outline-none px-2 w-full"
               required
             />
           </div>
